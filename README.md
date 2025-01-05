@@ -27,6 +27,7 @@ rustup toolchain install stable
 rustup toolchain install nightly
 rustup default stable
 rustup component add rls rust-analysis rust-src
+rustup component add rust-src rustc-dev llvm-tools-preview
 ```
 
 ### Racer
